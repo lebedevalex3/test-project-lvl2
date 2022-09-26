@@ -1,7 +1,11 @@
 {
-  "name": "front-proj-lv2-test",
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "",
+  "bin": {
+    "gendiff2": "src/bin/gendiff.js"
+  },
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +13,7 @@
   "author": "Alex Lebedev",
   "license": "ISC",
   "dependencies": {
-    "commander": "^9.4.0"
+    "commander": "^9.4.0",
+    "lodash": "^4.17.21"
   }
 }
